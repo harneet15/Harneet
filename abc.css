@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+img
+{
+border: 3px silver solid;
+
+}
+p.header
+{
+float:right;
+width:90%;
+color:red;
+}
+
+div.decimal{
+	
+}
+nav{
+width: 15%;
+display:flex;
+	
+	flex-basis:100px;
+	flex-grow:1;
+	float:left;
+}
+article
+{
+	float:left;
+	width: 75%;
+	text-decoration:wavy;
+}
+
+aside{
+width:10%;
+float:left;
+}
+body
+{background:linear-gradient(yellow 25%,grey 55%,red 30%);
+}
